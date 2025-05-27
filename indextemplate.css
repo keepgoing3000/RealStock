@@ -1,0 +1,29 @@
+a{
+    color:rgb(196, 36, 36);
+    font-size:30px;
+    text-decoration:none;
+}
+#grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    max-width:1200px;
+    margin:0 auto;
+    padding: 0 20px;
+}
+#grid>div:first-child{
+    border-right:1px gray solid;
+    padding-right:20px;
+}
+#grid > div:last-child {
+    padding-left: 20px; /* 오른쪽 요소도 약간 띄움 */
+}
+img{
+    width:500px;
+}
+table{
+    margin: 15px;
+}
+td{
+    padding:20px;
+                
+}
