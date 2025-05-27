@@ -1,5 +1,5 @@
 a{
-    color:rgb(196, 36, 36);
+    color:#2e8b57;
     font-size:30px;
     text-decoration:none;
 }
@@ -24,6 +24,65 @@ table{
     margin: 15px;
 }
 td{
-    padding:20px;
-                
+    padding:20px;  
+}
+body{
+    background-color: rgb(249, 240, 228);
+    
+}
+h1{
+    text-align:center;
+    background-color:rosybrown;
+    padding: 30px;
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 30px
+}
+.sector-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 15px; /* 셀 간격 */
+  margin-top: 20px;
+}
+
+.sector-table td {
+  background-color: #ffffff;
+  padding: 12px 18px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #c0392b;
+  font-weight: 600;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.sector-table td:hover {
+  background-color: #f9f9f9;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+h2 {
+  position: fixed;
+  top: 30px;
+  right: 20px;
+
+  background-color: #ffffff;
+  padding: 12px 18px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #c0392b;
+  font-weight: 600;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, background-color 0.2s;
+  width: 50px;
+}
+
+h2:hover {
+  background-color: #f9f9f9;
+  transform: scale(1.05);
+  cursor: pointer;
 }
