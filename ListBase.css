@@ -1,0 +1,35 @@
+body {
+  background-color: antiquewhite;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+h1 {
+  text-align: center;
+  background-color: rgb(116, 157, 116); /* 새 버전 우선 적용 */
+  font-size: 30px;
+  margin: 0px;
+}
+h2, h2:hover {
+  background-color: #ffffff;
+  padding: 12px 18px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #c0392b;
+  font-weight: 600;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, background-color 0.2s;
+  margin-inline: 30%;
+}
+h2:hover {
+  background-color: #f9f9f9;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+h3 {
+  font-size: 30px;
+  margin: 0px;
+}

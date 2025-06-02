@@ -1,0 +1,18 @@
+.subImg img {
+  width: 200px;
+  height: auto;
+  border: 1px solid black;
+}
+.mainImg img {
+  width: 100%;
+  height: 500px;
+}
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  text-align: center;
+}
+td {
+  border: 1px solid black;
+}
