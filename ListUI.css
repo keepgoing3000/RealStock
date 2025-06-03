@@ -12,7 +12,23 @@ table {
   border-collapse: collapse;
   margin-top: 10px;
   text-align: center;
+  margin:10px auto;
 }
+th {
+  border: 1px solid black;
+  font-size: 30px;
+  background-color: #f0f0f0;
+}
+
 td {
   border: 1px solid black;
+  font-size: 30px;
+  
+}
+#simg{
+  width:120px;
+  height:auto;
+}
+#std{
+  width: 120px;
 }
