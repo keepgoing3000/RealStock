@@ -1,0 +1,62 @@
+/* 파일명: style.css */
+body {
+  background-color: rgb(249, 240, 228);
+  font-family: 'Malgun Gothic', sans-serif;
+}
+
+/* 차트 컨테이너: 차트 두 개를 가로로 배치 */
+.chart-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* 차트 사이 간격 */
+    margin-bottom: 30px;
+}
+
+.market-box {
+    text-align: center;
+}
+
+.bar-bg {
+    width: 100px;
+    height: 200px;
+    background-color: #ddd;
+    display: flex;
+    align-items: flex-end; /* 막대가 아래에서 위로 올라오게 */
+    margin: 0 auto; /* 중앙 정렬 */
+    border-radius: 10px;
+    overflow: hidden; /* 둥근 모서리 밖으로 막대가 안 나가게 */
+}
+
+.bar {
+    width: 100%;
+    background-color: #ff4d4d;
+    transition: height 0.5s ease; /* 부드러운 애니메이션 */
+}
+
+/* 기존 스타일 */
+a {
+  color: #2e8b57;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+table {
+  margin: 0 auto; /* 테이블 중앙 정렬 */
+  border-spacing: 20px;
+}
+
+h1 {
+  text-align: center;
+  background-color: rosybrown;
+  padding: 20px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+h2 {
+    text-align: right;
+    padding-right: 20px;
+    font-size: 14px;
+    color: #666;
+}
