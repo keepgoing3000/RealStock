@@ -1,0 +1,23 @@
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: stretch;
+  margin-inline: 100px;
+  margin-top: 30px;
+}
+.grid-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  border-block: 1px solid gray;
+}
+.grid-list {
+  text-align: center;
+  word-spacing: 30px;
+  border-block: 1px solid gray;
+  padding: 12px;
+}
+form {
+  text-align: center;
+  font-size: 20px;
+  padding: 30px;
+}

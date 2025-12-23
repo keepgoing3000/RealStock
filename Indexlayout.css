@@ -1,0 +1,14 @@
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+#grid > div:first-child {
+  border-right: 1px gray solid;
+  padding-right: 20px;
+}
+#grid > div:last-child {
+  padding-left: 20px;
+}

@@ -22,22 +22,7 @@
         
         <button id="logout-btn" style="padding: 5px 10px; cursor: pointer;">로그아웃</button>
     </div>
-        <div id="login-modal" class="modal-overlay">
-    <div class="modal-content">
-        <span id="close-btn" class="close-x">&times;</span>
-        
-        <h2>로그인 & 회원가입</h2>
-        <p>아이디와 비밀번호를 입력하세요</p>
-        
-        <input type="text" id="input-id" placeholder="아이디 입력" class="modal-input">
-        <input type="password" id="input-pw" placeholder="비밀번호 입력" class="modal-input">
-        
-        <div class="btn-group">
-            <button id="real-login-btn" class="action-btn" style="background: #4CAF50;">로그인</button>
-            <button id="real-signup-btn" class="action-btn" style="background: #2196F3;">회원가입</button>
-        </div>
-    </div>
-</div>
+        <h2>login</h2>
         <h1>📈Korea Stock📈</h1>
 
     <div id="grid">
@@ -57,39 +42,39 @@
             <div id="kosdaq-bar" class="bar" style="height: 50%;"></div>
         </div>
     </div>
-    <div style="text-align: center; margin: 20px;">
-    <button id="wish-btn" style="padding: 10px 20px; font-size: 18px; background-color: #ff69b4; color: white; border: none; cursor: pointer; border-radius: 20px;">
-        원하는 주식 찜하기 (MongoDB 저장)
-    </button>
-</div>
 </div>
         <div id="list">
         <table class="sector-table">
             <tr>
-            <td><a href="view/cospi.html" title="대기업과 중견기업 위주로 구성">📉코스피 30</a></td>
-            <td><a href="view/cosdaq.html" title="기술 중심의 성장기업이 많은 벤처 및 중소기업 중심의 시장">📉코스닥 30</a></td> 
+            <td><a href="cospi.html" title="대기업과 중견기업 위주로 구성">📉코스피 30</a></td>
+            <td><a href="cosdaq.html" title="기술 중심의 성장기업이 많은 벤처 및 중소기업 중심의 시장">📉코스닥 30</a></td> 
             </tr>
             <tr>
-                <td><a href="view/IT.html" title="">💻반도체/IT </a></td>
-                <td><a href="view/health.html" title="">💊헬스케어 </a></td>
+                <td><a href="IT.html" title="">💻반도체/IT </a></td>
+                <td><a href="health.html" title="">💊헬스케어 </a></td>
             </tr>
 
             <tr>      
-            <td><a href="view/mobile.html" title="">🚗자동차/운송 </a></td>
-            <td><a href="view/finance.html" title="">💰금융 </a></td> 
+            <td><a href="mobile.html" title="">🚗자동차/운송 </a></td>
+            <td><a href="finance.html" title="">💰금융 </a></td> 
             </tr>
             <tr>
-            <td><a href="view/energy.html" title="">⚡에너지/소재 </a></td>
-            <td><a href="view/consumer.html" title="">🛒소비재/유통 </a></td>
+            <td><a href="energy.html" title="">⚡에너지/소재 </a></td>
+            <td><a href="consumer.html" title="">🛒소비재/유통 </a></td>
             </tr>
             <tr>
-                <td><a href="view/media.html" title="">📞통신/미디어 </a></td>
+                <td><a href="media.html" title="">📞통신/미디어 </a></td>
             </tr>
         </table>
         <br>
         <h3 style="text-align:center">주식 초보자 공부하기</h3>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/0KC9TBc3jXc?si=UrjsD157l9DUzuZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
+        <div style="text-align: center; margin: 20px;">
+    <button id="buy-btn" style="padding: 10px 20px; font-size: 18px; background-color: red; color: white; border: none; cursor: pointer;">
+        코스피 매수하기 (DB저장)
+    </button>
+</div>
     </div>
     <script src="/public/js/script.js"></script>
 </body>
